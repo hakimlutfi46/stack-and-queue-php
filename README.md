@@ -27,7 +27,6 @@ Queue adalah struktur data linear yang mengikuti prinsip First In First Out (FIF
 - Pelanggan yang sudah membayar tiketnya akan pergi ke tempat tunggu kereta atau pesawat.
 - Pelanggan yang pertama datang akan dilayani pertama kali (FIFO).
 
-[========]
 
 ## Contoh Kode
 
