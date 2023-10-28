@@ -28,7 +28,9 @@ Queue adalah struktur data linear yang mengikuti prinsip First In First Out (FIF
 - Pelanggan yang pertama datang akan dilayani pertama kali (FIFO).
 
 ## Contoh Kode
+
 '''php
+
 <?php
 // Inisialisasi tumpukan piring
 $stack = [];
@@ -43,4 +45,4 @@ $topPlate = array_pop($stack);
 echo "Menggunakan piring: $topPlate\n"; // Output: Menggunakan piring: Piring 3
 
 // Piring terakhir yang diletakkan adalah yang pertama diambil (LIFO).
-'''markdown
+'''
