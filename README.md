@@ -1,6 +1,5 @@
 # stack-and-queue-php
-Contoh penerapan stack dan queue pada pemrograman PHP
-
+![img1](image/img1.jpeg)
 Stack adalah struktur data linier yang mengikuti aturan tertentu untuk melakukan operasi. Data yang memiliki struktur stack, tersusun seperti tumpukan, sehingga hanya elemen yang baru dimasukkan yang dapat diakses atau dilihat. Ujung tumpukan yang digunakan untuk melakukan semua operasi disebut bagian atas tumpukan. Stack mengikuti prinsip LIFO (Last In First Out), yang berarti elemen yang dimasukkan terakhir akan menjadi elemen pertama yang keluar dari urutan data.
 Queue adalah struktur data linier di mana kita dapat menyisipkan dan menghapus elemen dari daftar data. Akhir daftar dari mana elemen disisipkan disebut ujung belakang dan ujung di mana elemen dihapus adalah ujung depan. Struktur data yang menggunakan queue mengikuti prinsip FIFO (First In First Out), yang berarti elemen yang dimasukkan pertama kali dari ujung belakang akan menjadi elemen pertama yang dihapus dari ujung depan.
 
