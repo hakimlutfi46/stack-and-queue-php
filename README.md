@@ -27,15 +27,41 @@ Queue adalah struktur data linear yang mengikuti prinsip First In First Out (FIF
 - Pelanggan yang sudah membayar tiketnya akan pergi ke tempat tunggu kereta atau pesawat.
 - Pelanggan yang pertama datang akan dilayani pertama kali (FIFO).
 
+
 ## Contoh Kode
 
-<?php
-     $stack = []; 
-		
+#### Kode Program Stack
+		 <?php
+		 // Inisialisasi tumpukan piring
+		 
+		 $stack = []; 
+		 
+		 // Menambahkan piring ke tumpukan
 		array_push($stack, "Piring 1");
 		array_push($stack, "Piring 2");
 		array_push($stack, "Piring 3");
 		
+		// Mengambil piring dari tumpukan
 		$topPlate = array_pop($stack);
-		echo "Menggunakan piring: $topPlate\n";
-?>
+		echo "Menggunakan piring: $topPlate\n"; // Output: Menggunakan piring: Piring 3
+		
+		// Piring terakhir yang diletakkan adalah yang pertama diambil (LIFO).
+		?>
+
+
+#### Kode Program Queue
+		 <?php
+		 // Inisialisasi antrian pelanggan
+		 $queue = [];
+		 
+		 // Pelanggan mengantri untuk pembayaran tiket
+		 array_push($queue, "Pelanggan 1");
+		 array_push($queue, "Pelanggan 2");
+		 array_push($queue, "Pelanggan 3");
+		 
+		 // Loket memanggil pelanggan pertama untuk membayar tiket
+		 $firstCustomer = array_shift($queue);
+		 echo "Membayar tiket: $firstCustomer\n";  // Output: Membayar tiket: Pelanggan 1
+		 
+		 // Pelanggan yang pertama datang akan dilayani pertama kali (FIFO).
+		 ?>
